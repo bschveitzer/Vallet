@@ -9,6 +9,7 @@
 let Mongoosemodels = {
   idioma: require('./modelmanager/IdiomaManager.js'),
   usuario: require('./modelmanager/UsuarioManager.js'),
+  equipamento: require('./modelmanager/EquipamentoManager.js'),
 };
 
 module.exports = Mongoosemodels;
